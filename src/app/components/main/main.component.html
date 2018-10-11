@@ -1,0 +1,30 @@
+<div class='container-fluid'>
+  <h3>Cody Silverglat | Full-Stack Web Developer</h3>
+  <div class="top-nav">
+    <ul class="nav nav-tabs active">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" [routerLink]="['']" id="home-tab">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" [routerLink]="['/portfolio']" id="portfolio-tab">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" [routerLink]="['/about']" id="about-tab">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" [routerLink]="['/skills']" id="skills-tab">Skills</a>
+        </li>
+      </ul>
+  </div><!--close div top-nav-->
+
+  <router-outlet></router-outlet>
+  
+  <div class="footer-div">
+    <footer class="navbar navbar-light bg-light">
+        <a href="https://www.linkedin.com/in/codysilverglat/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/writecody"target="_blank">GitHub</a>
+        <a href="contact">Contact</a>
+    </footer>
+  </div>
+
+</div> <!--close div container-fluid-->

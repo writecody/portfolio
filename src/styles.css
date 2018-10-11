@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 3px; 
+}
+
+/* FONTS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a, p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.no-bullet {
+    list-style: none;
+}
+
+h4, h3 {
+    color: #6B401E;
+}
+
+h5, card.h4 {
+    color: #A46140;
+}
+
+a {
+    color: #AF482B;
+}
+
+a:active {
+    color: #C8694D;
+}
+
+.card {
+    background-color: #F4F1EB;
+}
+
+.jumbotron {
+    background-color: #F4F1EB; 
+}
+
+.list-group {
+    list-style-type: square;
+    padding-left: 5px;
+}
+
+.icon-section {
+    text-align: center;
+}
+
+.icon {
+    padding-left: 5px;
+}
+
+.carousel-caption {
+    color: #6B401E;
+}
+
+.carousel-container {
+    display: block;
+}
+/* COLORS */
+/* #C8694D red damask */
+/* #6B401E antique brass*/
+/* #D6BAA4 soft amber*/
+/* #AF482B rose of sharon*/
+/* #A46140 desert */
+/* F4F1EB hint of red */
+/* #EEEEEE gray 90%*/
