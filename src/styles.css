@@ -64,6 +64,11 @@ a:active {
 .carousel-container {
     display: block;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
 /* COLORS */
 /* #C8694D red damask */
 /* #6B401E antique brass*/
